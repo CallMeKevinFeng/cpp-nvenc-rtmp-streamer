@@ -1,0 +1,18 @@
+# 编译生成的二进制文件
+nvenc_test
+nvenc_streamer
+
+# 测试视频
+*.mp4
+*.flv
+
+# 系统/编辑器文件
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# CMake 构建目录
+build/
+CMakeCache.txt
+CMakeFiles/
